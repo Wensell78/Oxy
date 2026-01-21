@@ -1,0 +1,5 @@
+venv/
+data/
+config.py
+__pycache__/
+logo/logo.ai

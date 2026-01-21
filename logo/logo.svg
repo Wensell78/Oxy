@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 751.3 774.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_31);
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-3 {
+        fill: #fefffe;
+        filter: url(#drop-shadow-6);
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_14);
+      }
+
+      .cls-5 {
+        fill: #5ed4b7;
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-6, .cls-7 {
+        fill: #aad2fd;
+      }
+
+      .cls-8 {
+        fill: #013463;
+      }
+
+      .cls-9 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-10 {
+        fill: url(#_Безымянный_градиент_31-2);
+      }
+
+      .cls-7 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-11 {
+        fill: #fbfcfd;
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-12 {
+        fill: #023b75;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_14" data-name="Безымянный градиент 14" x1="65.07" y1="730.21" x2="683.92" y2="47.12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#023771"/>
+      <stop offset="1" stop-color="#0086b0"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="118.69" y="534.5" width="127" height="181" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="12"/>
+      <feGaussianBlur result="blur" stdDeviation="12"/>
+      <feFlood flood-color="#000" flood-opacity=".67"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="487.69" y="411.5" width="127" height="303" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="12"/>
+      <feGaussianBlur result="blur-2" stdDeviation="12"/>
+      <feFlood flood-color="#000" flood-opacity=".67"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" x="27.69" y=".5" width="691" height="426" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="12"/>
+      <feGaussianBlur result="blur-3" stdDeviation="12"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="_Безымянный_градиент_31" data-name="Безымянный градиент 31" x1="98.97" y1="352.61" x2="216" y2="149.91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#adec7c"/>
+      <stop offset="1" stop-color="#7abdfe"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_31-2" data-name="Безымянный градиент 31" x1="315.76" y1="471.18" x2="539.44" y2="83.75" xlink:href="#_Безымянный_градиент_31"/>
+    <filter id="drop-shadow-4" x="262.69" y="191.5" width="221" height="354" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="12"/>
+      <feGaussianBlur result="blur-4" stdDeviation="12"/>
+      <feFlood flood-color="#000" flood-opacity=".67"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-5" x="235.69" y="397.5" width="278" height="324" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="12"/>
+      <feGaussianBlur result="blur-5" stdDeviation="12"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-6" x="301.69" y="462.5" width="147" height="147" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="12"/>
+      <feGaussianBlur result="blur-6" stdDeviation="12"/>
+      <feFlood flood-color="#000" flood-opacity=".67"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_Слой_2" data-name="Слой 2">
+    <rect class="cls-4" width="751.3" height="774.78" rx="190.17" ry="190.17"/>
+  </g>
+  <g id="_Слой_4" data-name="Слой 4">
+    <rect class="cls-7" x="154.95" y="559.11" width="54" height="107.48" rx="7.7" ry="7.7"/>
+    <rect class="cls-6" x="523.84" y="435.91" width="54" height="230.13" rx="7.7" ry="7.7"/>
+  </g>
+  <g id="_Слой_5" data-name="Слой 5">
+    <path class="cls-12" d="M13.09,654.43c27.81,70.54,96.57,120.45,176.99,120.45h370.96c80.42,0,149.18-49.92,176.99-120.45H13.09Z"/>
+  </g>
+  <g id="_Слой_6" data-name="Слой 6">
+    <g class="cls-9">
+      <path class="cls-1" d="M76.36,216.39c-2.11,4.29-4.79,10.41-7.04,18-.35,1.19-.91,3.05-1.53,5.48-12.16,47.47,10.1,85.25,10.14,85.3h0c3.91,5.29,9.88,12.61,18.22,20.22,10.13,9.24,31.17,28.44,53.78,29.09,25.97.75,45.46-23.23,56.29-36.54,48.59-59.76,57.9-159.16,22.76-181.03-6.45-4.01-14.73-4.26-31.3-4.7-15.85-.42-45.51-.82-75.91,17.22-25.13,14.91-38.89,35.37-45.39,46.96Z"/>
+      <path class="cls-10" d="M230.54,155.34c22.37-77.99,92.69-130.94,168.26-129.91,87.03,1.18,163.76,73.72,169.83,168.26,6.82-.69,16.64-1.05,28.17.78,9.21,1.46,35.61,6.01,57.13,27.39,4.45,4.42,33.83,34.62,27.39,78.26-4.38,29.74-23.48,52.67-43.83,64.17-13.87,7.84-26.89,9.56-32.87,10.17-41.71,4.31-217.08,4.31-454.7,0"/>
+    </g>
+  </g>
+  <g id="_Слой_7" data-name="Слой 7">
+    <polygon class="cls-11" points="298.95 277.43 447.05 216.26 406.36 497.21 335.14 489.39 298.95 277.43"/>
+  </g>
+  <g id="_Слой_3" data-name="Слой 3">
+    <g class="cls-2">
+      <ellipse class="cls-8" cx="374.66" cy="522" rx="102.91" ry="100.17"/>
+      <polygon class="cls-8" points="374.66 672.78 453.47 586.08 295.85 586.08 374.66 672.78"/>
+    </g>
+    <circle class="cls-5" cx="374.89" cy="523.96" r="78.07"/>
+    <circle class="cls-3" cx="374.89" cy="523.96" r="36.98"/>
+  </g>
+</svg>
