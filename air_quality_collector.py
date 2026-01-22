@@ -100,10 +100,8 @@ def save_air_quality_json(city_name, data):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=4)
 
-    
 
 
-# Пример использования
 if __name__ == "__main__":
     city = CITIES[9]
     lat = city["lat"]
