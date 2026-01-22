@@ -1,0 +1,159 @@
+{
+  "note": "This handbook is a simple backend reference for UI use. Language is plain English for general users; values are indicative — agencies use different averaging periods and thresholds. OpenWeather AQI uses category 1..5 (a category, not a numerical AQI index). Category meanings are given in the `AQI` entry.",
+  "indicators": {
+    "AQI": {
+      "name_en": "Air Quality Index (OpenWeather category)",
+      "name_ru": "Индекс качества воздуха (категория OpenWeather)",
+      "severity_level": "moderate",
+      "unit": null,
+      "what_it_is": "A simple category (1 to 5) that summarizes overall air quality using several pollutants. Note: this is a category number, not a raw numerical AQI index. Higher category means worse air quality.",
+      "typical_sources": [
+        "Traffic and vehicle exhaust",
+        "Industry and power plants",
+        "Wildfires and open burning",
+        "Dust and construction"
+      ],
+      "health_risks": [
+        "Higher categories mean higher chance of breathing trouble, coughing, or worsening of asthma and heart conditions.",
+        "Short outdoor exposure is usually safe at low categories; higher categories increase risk for sensitive people."
+      ],
+      "vulnerable_groups": ["Children", "Elderly", "People with asthma or lung disease", "People with heart disease", "Pregnant people"],
+      "guideline_levels": [
+        {"label": "1 (Good)", "note": "Air quality is considered good for most people."},
+        {"label": "2 (Fair / Moderate)", "note": "Some sensitive people may experience mild symptoms; consider light activity indoors if you are sensitive."},
+        {"label": "3 (Poor / Unhealthy for sensitive groups)", "note": "Sensitive people should reduce prolonged or heavy outdoor exertion."},
+        {"label": "4 (Very Poor / Unhealthy)", "note": "Reduce outdoor activity; vulnerable groups should avoid exertion."},
+        {"label": "5 (Severe / Hazardous)", "note": "Everyone should avoid prolonged outdoor exposure; follow local health advice."}
+      ],
+      "what_to_do": [
+        "Check the category before planning long outdoor activities.",
+        "Sensitive people should reduce outdoor exercise starting at category 2–3.",
+        "Keep windows closed during high categories and use indoor air filtration if available.",
+        "Avoid strenuous outdoor sports at category 3 or higher; prefer light indoor activity."
+      ]
+    },
+
+    "PM2.5": {
+      "name_en": "Fine particulate matter (PM2.5)",
+      "name_ru": "Мелкие взвешенные частицы (PM2.5)",
+      "severity_level": "high",
+      "unit": "µg/m³",
+      "what_it_is": "Very small particles (2.5 micrometres or smaller) that can travel deep into the lungs and sometimes into the bloodstream.",
+      "typical_sources": ["Vehicle exhaust", "Wood burning and wildfires", "Industry", "Residential heating"],
+      "health_risks": ["Irritation of the airways, coughing and shortness of breath", "Worsening of asthma and chronic lung disease", "Increased risk for heart problems with long or repeated exposure"],
+      "vulnerable_groups": ["Children", "Elderly", "People with asthma or COPD", "People with heart disease", "Pregnant people"],
+      "guideline_levels": [
+        {"label": "Good", "value": "0–12 µg/m³ (24-hour guideline, approximate)", "note": "Low risk for most people."},
+        {"label": "Moderate", "value": "12.1–35.4 µg/m³", "note": "Sensitive people may experience symptoms."},
+        {"label": "Unhealthy", "value": "35.5–55.4 µg/m³", "note": "Reduce outdoor exertion; vulnerable groups should limit time outside."},
+        {"label": "Hazardous", "value": "55.5+ µg/m³", "note": "Avoid outdoor activities; use filtration indoors if possible."}
+      ],
+      "what_to_do": [
+        "Reduce or reschedule outdoor exercise when PM2.5 is elevated.",
+        "Use an N95/FFP2 respirator when spending time outdoors in high-pollution situations.",
+        "Keep windows closed and use indoor air cleaners or central filtration when available."
+      ]
+    },
+
+    "PM10": {
+      "name_en": "Coarse particulate matter (PM10)",
+      "name_ru": "Крупные взвешенные частицы (PM10)",
+      "severity_level": "moderate",
+      "unit": "µg/m³",
+      "what_it_is": "Larger airborne particles (up to 10 micrometres) that can irritate the nose and throat and be breathed into the upper lungs.",
+      "typical_sources": ["Dust storms and road dust", "Construction and demolition", "Agricultural activities", "Industrial emissions"],
+      "health_risks": ["Eye, nose and throat irritation", "Aggravation of asthma and breathing problems for sensitive people"],
+      "vulnerable_groups": ["Children", "Elderly", "People with respiratory conditions"],
+      "guideline_levels": [
+        {"label": "Good", "value": "0–54 µg/m³ (24-hour, approximate)", "note": "Low risk for most people."},
+        {"label": "Moderate", "value": "55–154 µg/m³", "note": "Sensitive people may be affected."},
+        {"label": "Unhealthy", "value": "155–254 µg/m³", "note": "Limit outdoor activity for vulnerable people."},
+        {"label": "Hazardous", "value": "255+ µg/m³", "note": "Avoid outdoor exposure."}
+      ],
+      "what_to_do": [
+        "Avoid heavy outdoor exertion during dust events.",
+        "Use masks in dusty conditions if you are sensitive.",
+        "Keep indoor spaces dust-free and use filtration where possible."
+      ]
+    },
+
+    "O3": {
+      "name_en": "Ozone (O3)",
+      "name_ru": "Озон (O3)",
+      "severity_level": "moderate",
+      "unit": "µg/m³ or ppb",
+      "what_it_is": "A reactive gas that at ground level is created by reactions of other pollutants in sunlight. It can irritate the lungs and reduce lung function.",
+      "typical_sources": ["Forms in sunlight from traffic and industrial emissions (secondary pollutant)"],
+      "health_risks": ["Coughing, chest tightness, shortness of breath", "Worse symptoms during exercise or for people with asthma"],
+      "vulnerable_groups": ["Children (playing outdoors)", "People with asthma", "Elderly"],
+      "guideline_levels": [
+        {"label": "Low", "value": "Typical low-day levels, agency-dependent", "note": "Low immediate health risk for most people."},
+        {"label": "Moderate/High", "value": "Elevated on sunny days with lots of traffic; follow local alerts", "note": "Sensitive people should reduce outdoor exercise."}
+      ],
+      "what_to_do": [
+        "Avoid intense outdoor exercise on hot, sunny days when ozone rises.",
+        "Children and people with asthma should limit outdoor play or sports during high-ozone alerts.",
+        "Follow local air-quality advisories for specific guidance." 
+      ]
+    },
+
+    "NO2": {
+      "name_en": "Nitrogen dioxide (NO2)",
+      "name_ru": "Диоксид азота (NO2)",
+      "severity_level": "moderate",
+      "unit": "µg/m³ or ppb",
+      "what_it_is": "A gas produced mainly by burning fuels. Short-term exposure irritates the airways and can make breathing harder.",
+      "typical_sources": ["Vehicle exhaust", "Power plants", "Industrial combustion"],
+      "health_risks": ["Irritation of the airways", "Increased risk of respiratory infections and worsening of asthma"],
+      "vulnerable_groups": ["Children", "People with asthma", "Elderly"],
+      "guideline_levels": [
+        {"label": "Low", "value": "Background urban levels, agency-dependent"},
+        {"label": "Elevated", "value": "Near busy roads or during heavy traffic; sensitive people may be affected"}
+      ],
+      "what_to_do": [
+        "Avoid standing close to busy traffic for long periods.",
+        "Choose less-polluted routes for walking or cycling if possible.",
+        "People with asthma should keep rescue medication available and avoid intense outdoor exertion in traffic-polluted areas." 
+      ]
+    },
+
+    "SO2": {
+      "name_en": "Sulfur dioxide (SO2)",
+      "name_ru": "Диоксид серы (SO2)",
+      "severity_level": "moderate",
+      "unit": "µg/m³ or ppb",
+      "what_it_is": "A gas produced by burning sulfur-containing fuels and by some industrial processes. High short-term levels can cause breathing problems.",
+      "typical_sources": ["Coal and oil combustion", "Smelters and some industrial sources"],
+      "health_risks": ["Shortness of breath and wheezing, especially for people with asthma", "Can trigger bronchospasm in sensitive people"],
+      "vulnerable_groups": ["People with asthma", "Children", "Elderly"],
+      "guideline_levels": [
+        {"label": "Low", "value": "Background levels in clean air"},
+        {"label": "Elevated", "value": "During industrial events or heavy combustion; sensitive people may be affected"}
+      ],
+      "what_to_do": [
+        "Follow local advisories during industrial releases or power-plant events.",
+        "People with respiratory disease should avoid outdoor exertion when SO2 is reported high." 
+      ]
+    },
+
+    "CO": {
+      "name_en": "Carbon monoxide (CO)",
+      "name_ru": "Оксид углерода (CO)",
+      "severity_level": "moderate",
+      "unit": "mg/m³ or ppm",
+      "what_it_is": "A colorless gas formed by incomplete burning of carbon fuels. Very high levels can prevent oxygen carrying in the blood.",
+      "typical_sources": ["Vehicle exhaust (especially in traffic jams)", "Household heating and cooking with poor ventilation", "Wildfires"],
+      "health_risks": ["Headache, dizziness, and at very high levels loss of consciousness; chronic low-level exposure can stress the heart in people with disease"],
+      "vulnerable_groups": ["People with heart disease", "Infants", "Elderly"],
+      "guideline_levels": [
+        {"label": "Low", "value": "Typical outdoor background concentrations"},
+        {"label": "Elevated", "value": "Near heavy traffic or in poorly ventilated indoor combustion settings"}
+      ],
+      "what_to_do": [
+        "Avoid sitting with car engines idling in closed spaces.",
+        "Ensure good ventilation when using gas heaters or stoves and service combustion appliances regularly.",
+        "People with heart disease should avoid areas with heavy traffic smog." 
+      ]
+    }
+  }
+}

@@ -45,7 +45,7 @@ def main():
     ts_clean = (
         ts_raw
         .str.replace("\ufeff", "", regex=False)
-        .str.replace(r"[\x00-\x1f]", "", regex=True) 
+        .str.replace(r"[\x00-\x1f]", "", regex=True)
         .str.strip()
         .str.replace("T", " ", regex=False)
         .str.replace("Z", "", regex=False)
@@ -53,7 +53,7 @@ def main():
 
     parsed = pd.to_datetime(ts_clean, errors="coerce")
 
-    n_invalid = parsed.isna().sum()
+    n_invalid = int(parsed.isna().sum())
     logging.info(f"Total rows: {total_rows}; parsed successfully: {total_rows - n_invalid}; failed: {n_invalid}")
 
     invalid_rate = n_invalid / total_rows if total_rows > 0 else 0.0
